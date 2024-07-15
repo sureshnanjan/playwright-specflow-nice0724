@@ -1,0 +1,41 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240715113507
+Username: SURESHNANJAN\nanja
+RunAs User: SURESHNANJAN\nanja
+Configuration Name: 
+Machine: SURESHNANJAN (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 87380
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is suresh.txt
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow> git clone https://github.com/sureshnanjan/playwright-specflow-nice0724.git
+Cloning into 'playwright-specflow-nice0724'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow> cd .\playwright-specflow-nice0724\
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow\playwright-specflow-nice0724> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow\playwright-specflow-nice0724> git checkout -b suresh-trainer
+
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow\playwright-specflow-nice0724> git status
+
+PS C:\Trainings-2021\Vendors\vinsys\NICE-PLaywright-SpecFlow\playwright-specflow-nice0724> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240715113611
+**********************
