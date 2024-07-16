@@ -13,7 +13,7 @@ public class Calculator{
 	return 0;
 	}
     public int multiplication(){
-	System.Console.WriteLine("Doing Division");
+	System.Console.WriteLine("Doing Multiplication");
 	return 0;
 	}
 }
