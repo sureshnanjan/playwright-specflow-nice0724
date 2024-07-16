@@ -246,3 +246,28 @@ da---l         7/16/2024  10:24 AM                usingcommandline
 -a---l         7/15/2024  10:10 AM          19296 vaibhav.log
 
 
+PS C:\Users\vwadkar\OneDrive - Nice Systems Ltd\Desktop\Project\Automation\QA-Training\playwright-specflow-nice0724> git add .\Assignment1.txt
+
+PS C:\Users\vwadkar\OneDrive - Nice Systems Ltd\Desktop\Project\Automation\QA-Training\playwright-specflow-nice0724> git commite
+
+PS C:\Users\vwadkar\OneDrive - Nice Systems Ltd\Desktop\Project\Automation\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\Users\vwadkar\OneDrive - Nice Systems Ltd\Desktop\Project\Automation\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         7/16/2024  10:24 AM                usingcommandline
+-a---l         7/16/2024  10:24 AM           7265 .gitignore
+-a----         7/16/2024  10:45 AM          12442 Assignment1.txt
+-a---l         7/15/2024  10:06 AM             77 README.md
+-a---l         7/16/2024  10:24 AM           3216 suresh.txt
+-a---l         7/15/2024  10:10 AM          19296 vaibhav.log
+
+
+PS C:\Users\vwadkar\OneDrive - Nice Systems Ltd\Desktop\Project\Automation\QA-Training\playwright-specflow-nice0724> Start-Transcript -Path Assignment1.txt
+**********************
+Windows PowerShell transcript end
+End time: 20240716104645
+**********************
