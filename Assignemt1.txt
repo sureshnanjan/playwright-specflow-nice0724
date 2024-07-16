@@ -1,0 +1,56 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240716102135
+Username: NICEDEN\kgupta
+RunAs User: NICEDEN\kgupta
+Configuration Name: 
+Machine: NEW8084-G8 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 37544
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Assignemt1.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout main
+Already on 'main'
+Your branch is behind 'origin/main' by 7 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git fetch --all
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git fetch
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git fetch --all
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch main
+Your branch is behind 'origin/main' by 7 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull
+Updating b39b298..b9765da
+Fast-forward
+ .gitignore                       |   1 +
+ suresh.txt                       |  79 +++++++++++++++++++++++++++++++++++++++
+ usingcommandline/Calculator.cs   |  12 ++++++
+ usingcommandline/HelloCSharp.cs  |  11 ++++++
+ usingcommandline/HelloCSharp.exe | Bin 0 -> 3584 bytes
+ usingcommandline/suresh.exe      | Bin 0 -> 3584 bytes
+ 6 files changed, 103 insertions(+)
+ create mode 100644 suresh.txt
+ create mode 100644 usingcommandline/Calculator.cs
+ create mode 100644 usingcommandline/HelloCSharp.cs
+ create mode 100644 usingcommandline/HelloCSharp.exe
+ create mode 100644 usingcommandline/suresh.exe
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git merge
+Already up to date.
