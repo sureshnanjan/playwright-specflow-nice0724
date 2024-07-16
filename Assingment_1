@@ -84,3 +84,292 @@ Untracked files:
         Assingment_1
 
 no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> git add .
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> git status
+On branch Sojwal-branch
+Your branch is ahead of 'origin/Sojwal-branch' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assingment_1
+        modified:   usingcommandline/Calculator.cs
+        modified:   usingcommandline/HelloCSharp.cs
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> git commit -m "update changes"
+[Sojwal-branch 18c4d2d] update changes
+ Committer: Sojwal Shah <Sojwal.Shah@nice.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 96 insertions(+)
+ create mode 100644 Assingment_1
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> git status
+On branch Sojwal-branch
+Your branch is ahead of 'origin/Sojwal-branch' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 6.54 KiB | 171.00 KiB/s, done.
+Total 17 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To https://github.com/sureshnanjan/playwright-specflow-nice0724.git
+   1e22f2f..18c4d2d  Sojwal-branch -> Sojwal-branch
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319 .\HelloCSharp.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319 : The term 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319 .\HelloCSharp.cs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Micr...rk64\v4.0.30319:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319 : The term
+'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' is not
+recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+.\HelloCSharp.cs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\Micr
+   ...rk64\v4.0.30319:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Fram
+ework, but only supports language versions up to C# 5, which is
+no longer the latest version. For compilers that support newer v
+ersions of the C# programming language, see http://go.microsoft.
+com/fwlink/?LinkID=533240
+
+error CS2001: Source file '.\HelloCSharp.cs' could not be found
+warning CS2008: No source files specified
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+error CS2001: Source file '.\HelloCSharp.cs' could not be found
+warning CS2008: No source files specified
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline
+>> TerminatingError(Set-Location): "A positional parameter cannot be found that accepts argument '-'."
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline
+>> TerminatingError(Set-Location): "A positional parameter cannot be found that accepts argument '-'."
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : A positional parameter cannot be found that accepts argument '-'.
+At line:1 char:1
++ cd C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline"
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken 
+training\playwright-specflow-nice0724\usingcommandline : The term 'cdC:\Users\soshah\OneDrive - Nice Systems 
+Ltd\Documents\AutomationTesting_Project_file__training\Nice taken 
+training\playwright-specflow-nice0724\usingcommandline' is not recognized as the name of a cmdlet, function, script 
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct 
+and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...singcommandline:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken
+training\playwright-specflow-nice0724\usingcommandline : The term 'cdC:\Users\soshah\OneDrive - Nice Systems
+Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline' is not recognized as the name of a
+cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...singcommandline:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724> cd .\usingcommandline\
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken
+    training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024  11:14 AM            407 Calculator.cs
+-a----         7/16/2024  11:15 AM            284 HelloCSharp.cs
+-a----         7/16/2024  11:05 AM           3584 HelloCSharp.exe
+-a----         7/16/2024  11:05 AM           3584 suresh.exe
+
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe 
+>> TerminatingError(): "Program 'csc.exe' failed to run: No process is associated with this object.At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~."
+Program 'csc.exe' failed to run: No process is associated with this object.At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+Program 'csc.exe' failed to run: No process is associated with
+this object.At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:1
++ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], App
+   licationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Fram
+ework, but only supports language versions up to C# 5, which is
+no longer the latest version. For compilers that support newer v
+ersions of the C# programming language, see http://go.microsoft.
+com/fwlink/?LinkID=533240
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\soshah\OneDrive - Nice Systems Ltd\Docu
+    ments\AutomationTesting_Project_file__training\Nice taken
+    training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024  11:14 AM            407 Calculator.cs
+-a----         7/16/2024  12:10 PM           3584 Calculator.dl
+                                                  l
+-a----         7/16/2024  11:15 AM            284 HelloCSharp.c
+                                                  s
+-a----         7/16/2024  11:05 AM           3584 HelloCSharp.e
+                                                  xe
+-a----         7/16/2024  11:05 AM           3584 suresh.exe
+
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Fram
+ework, but only supports language versions up to C# 5, which is
+no longer the latest version. For compilers that support newer v
+ersions of the C# programming language, see http://go.microsoft.
+com/fwlink/?LinkID=533240
+
+HelloCSharp.cs(1,7): error CS0246: The type or namespace name
+        'utilities' could not be found (are you missing a using
+        directive or an assembly reference?)
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  /reference:Calculator.dll .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Fram
+ework, but only supports language versions up to C# 5, which is
+no longer the latest version. For compilers that support newer v
+ersions of the C# programming language, see http://go.microsoft.
+com/fwlink/?LinkID=533240
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> .\HelloCSharp.exe
+Hello Suresh Welcome to CSharp
+Doing addition
+Doing Subtraction
+Doing multipler
+Doing Divisions
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> .\HelloCSharp.exe
+Hello Suresh Welcome to CSharp
+Doing addition
+Doing Subtraction
+Doing multipler
+Doing Divisions
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724"
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken 
+training\playwright-specflow-nice0724 : The term 'cdC:\Users\soshah\OneDrive - Nice Systems 
+Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...ecflow-nice0724:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724 : The term
+'cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724' is not
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the
+path is correct and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...ecflow-nice0724:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724\usingcommandline> cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724"
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken 
+training\playwright-specflow-nice0724 : The term 'cdC:\Users\soshah\OneDrive - Nice Systems 
+Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724' is not 
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a 
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...ecflow-nice0724:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724 : The term
+'cdC:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTesting_Project_file__training\Nice taken training\playwright-specflow-nice0724' is not
+recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the
+path is correct and try again.
+At line:1 char:1
++ cd"C:\Users\soshah\OneDrive - Nice Systems Ltd\Documents\AutomationTe ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cdC:\Users\sosh...ecflow-nice0724:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
