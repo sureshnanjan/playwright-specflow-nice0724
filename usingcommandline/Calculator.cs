@@ -8,5 +8,9 @@ public class Calculator{
 	System.Console.WriteLine("Doing Subtraction");
 	return 0;
 	}
+	public int multiply(){
+	System.Console.WriteLine("multiplication");
+	return 0;
+	}
 }
 }
