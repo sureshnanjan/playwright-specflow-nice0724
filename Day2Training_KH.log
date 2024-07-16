@@ -1,0 +1,265 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240716112935
+Username: NICEDEN\khirulkar
+RunAs User: NICEDEN\khirulkar
+Configuration Name: 
+Machine: NEW2300-G8 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30508
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Day2Training_KH.log
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git checkout -b KiranHirulkar-branch
+Switched to a new branch 'KiranHirulkar-branch'
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git status
+  (use "git add <file>..." to include in what will be committed)
+        Calculator.cs
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         7/16/2024  11:27 AM                usingcommandline
+-a---l         7/16/2024  11:27 AM           7266 .gitignore
+-a---l         7/16/2024  11:27 AM          12296 Assignment1.txt
+-a---l         7/16/2024  11:05 AM           1791 Calculator.cs
+-a----         7/16/2024  11:32 AM           1180 Day2Training_KH.log
+-a---l         7/16/2024  11:27 AM             78 README.md
+-a---l         7/16/2024  11:27 AM           3216 suresh.txt
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git add .
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git add Day2Training_KH.log
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /out:HelloCSharp.exe
+c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe : The term 'c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe' is 
+not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or 
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /out:HelloCSharp. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\windows\Micr...3.5\bin\csc.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe : The term 'c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe'
+is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name,
+or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /out:HelloCSharp. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\windows\Micr...3.5\bin\csc.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .\HelloCSharp.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .usingcommandline\HelloCSharp.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .\usingcommandline\HelloCSharp.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .\usingcommandline\calculator.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .\usingcommandline\HelloCSharp.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\usingcommandline\calculator.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\usingcommandline\calculator.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\usingcommandline\calculator.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> dir
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         7/16/2024  12:04 PM                usingcommandline
+-a---l         7/16/2024  11:27 AM           7266 .gitignore
+-a---l         7/16/2024  11:27 AM          12296 Assignment1.txt
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a----         7/16/2024  12:08 PM           5837 Day2Training_KH.log
+-a---l         7/16/2024  11:27 AM             78 README.md
+-a---l         7/16/2024  11:27 AM           3216 suresh.txt
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---l         7/16/2024  12:04 PM                usingcommandline
+-a---l         7/16/2024  11:27 AM           7266 .gitignore
+-a---l         7/16/2024  11:27 AM          12296 Assignment1.txt
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a----         7/16/2024  12:08 PM           5837 Day2Training_KH.log
+-a---l         7/16/2024  11:27 AM             78 README.md
+-a---l         7/16/2024  11:27 AM           3216 suresh.txt
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:kiran.exe /reference:calculator.dll
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:usingcommandline/HelloCSharp.exe /reference:calculator.dll
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> cd .\usingcommandline\
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:HelloCSharp.exe /reference:calculator.dll
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:HelloCSharp.exe /reference:calculator.dll
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> ./HelloCSharp.exe
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe HelloCSharp.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         7/16/2024  12:04 PM            788 Calculator.cs
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a---l         7/16/2024  12:01 PM            327 HelloCSharp.cs
+-a---l         7/16/2024  11:27 AM           3584 HelloCSharp.exe
+-a---l         7/16/2024  11:27 AM           3584 suresh.exe
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild .\demo..csproj
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild .\demo..csproj
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild .\demo..csproj
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild .\demo..csproj
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild .\demo..csproj
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git add .
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git commit -m "
+Update the calculation with mul & div"
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git push
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git push --set-upstream origin KiranHirulkar-branch
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> rm ../Calculator.cs
+rm : Cannot find path 'C:\Users\Khirulkar\OneDrive - Nice Systems 
+Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\Calculator.cs' because it does not exist.
+At line:1 char:1
++ rm ../Calculator.cs
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Khirul...4\Calculator.cs:String) [Remove-Item], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+rm : Cannot find path 'C:\Users\Khirulkar\OneDrive - Nice Systems
+Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\Calculator.cs' because it does not exist.
+At line:1 char:1
++ rm ../Calculator.cs
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Khirul...4\Calculator.cs:String) [Remove-Item], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         7/16/2024  12:04 PM            788 Calculator.cs
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a---l         7/16/2024  12:44 PM           1383 demo..csproj
+-a---l         7/16/2024  12:01 PM            327 HelloCSharp.cs
+-a---l         7/16/2024  11:27 AM           3584 HelloCSharp.exe
+-a---l         7/16/2024  11:27 AM           3584 suresh.exe
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> rm .\demo..csproj
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         7/16/2024  12:04 PM            788 Calculator.cs
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a---l         7/16/2024  12:01 PM            327 HelloCSharp.cs
+-a---l         7/16/2024  11:27 AM           3584 HelloCSharp.exe
+-a---l         7/16/2024  11:27 AM           3584 suresh.exe
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git add .
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git rm ../Calculator.cs
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\Users\Khirulkar\OneDrive - Nice Systems
+    Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l         7/16/2024  12:04 PM            788 Calculator.cs
+-a---l         7/16/2024  12:08 PM           3584 Calculator.dll
+-a---l         7/16/2024  12:01 PM            327 HelloCSharp.cs
+-a---l         7/16/2024  11:27 AM           3584 HelloCSharp.exe
+-a---l         7/16/2024  11:27 AM           3584 suresh.exe
+
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git commit -m "removed unnessesory files"
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> git push
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724\usingcommandline> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240716125833
+**********************
