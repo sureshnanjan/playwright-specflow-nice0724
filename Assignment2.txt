@@ -17,3 +17,66 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   .gitignore
+        new file:   suresh.txt
+        new file:   usingcommandline/Calculator.cs
+        new file:   usingcommandline/HelloCSharp.cs
+        new file:   usingcommandline/HelloCSharp.exe
+        new file:   usingcommandline/suresh.exe
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment1.txt
+        Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   .gitignore
+        new file:   suresh.txt
+        new file:   usingcommandline/Calculator.cs
+        new file:   usingcommandline/HelloCSharp.cs
+        new file:   usingcommandline/HelloCSharp.exe
+        new file:   usingcommandline/suresh.exe
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   usingcommandline/Calculator.cs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment1.txt
+        Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit -m "done changes for Mul. & div. operations"
+[pawan-branch 565c7d3] done changes for Mul. & div. operations
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is ahead of 'origin/pawan-branch' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   usingcommandline/Calculator.cs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment1.txt
+        Assignment2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git add .
+

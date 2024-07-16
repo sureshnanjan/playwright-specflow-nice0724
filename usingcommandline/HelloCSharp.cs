@@ -6,6 +6,8 @@ public static void Main(){
 	Calculator mycal = new Calculator();
 	mycal.add();
 	mycal.subtract();
+	mycal.multiplication();
+	mycal.division();
 }
 }
 }
