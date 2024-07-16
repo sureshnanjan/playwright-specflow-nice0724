@@ -1,0 +1,61 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240716113359
+Username: NICEDEN\kgupta
+RunAs User: NICEDEN\kgupta
+Configuration Name: 
+Machine: NEW8084-G8 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 36788
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Assignemt001.tx
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> Start-Transcript -Path Assignemt001.txt
+Transcript started, output file is Assignemt001.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Khushbu-branch
+error: Your local changes to the following files would be overwritten by checkout:
+        Assignemt01.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout main
+M       Assignemt01.txt
+Already on 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git push
+Enumerating objects: 20, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.63 KiB | 449.00 KiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/sureshnanjan/playwright-specflow-nice0724.git
+   f9ebee4..e68888d  main -> main
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Khushbu-branch
+error: Your local changes to the following files would be overwritten by checkout:
+        Assignemt01.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignemt01.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt001.tx
+        Assignemt001.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
