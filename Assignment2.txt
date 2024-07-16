@@ -80,3 +80,337 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git add .
 
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is ahead of 'origin/pawan-branch' by 8 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignment1.txt
+        new file:   Assignment2.txt
+        modified:   usingcommandline/Calculator.cs
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit -m "done changes for Mul. & div. operations"
+[pawan-branch 4f4aee8] done changes for Mul. & div. operations
+ 3 files changed, 120 insertions(+)
+ create mode 100644 Assignment1.txt
+ create mode 100644 Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is ahead of 'origin/pawan-branch' by 9 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment2.txt
+        modified:   usingcommandline/HelloCSharp.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git add .
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is ahead of 'origin/pawan-branch' by 9 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Assignment2.txt
+        modified:   usingcommandline/HelloCSharp.cs
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit -m "done changes for Mul. & div. operations in main file"
+[pawan-branch 492be6c] done changes for Mul. & div. operations in main file
+ 2 files changed, 65 insertions(+)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is ahead of 'origin/pawan-branch' by 10 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git push
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 6.03 KiB | 514.00 KiB/s, done.
+Total 16 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+To https://github.com/sureshnanjan/playwright-specflow-nice0724.git
+   022d39a..492be6c  pawan-branch -> pawan-branch
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> csc /?
+csc : The term 'csc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ csc /?
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (csc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+csc : The term 'csc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ csc /?
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (csc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> csc /?
+csc : The term 'csc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ csc /?
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (csc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+csc : The term 'csc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was
+included, verify that the path is correct and try again.
+At line:1 char:1
++ csc /?
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (csc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> cd .\usingcommandline\
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+HelloCSharp.cs(1,7): error CS0246: The type or namespace name 'utilities' could not be found (are you missing a using directive or an assembly reference?)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Calculator.cs(20,2): error CS1513: } expected
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  10:42 AM            414 Calculator.cs
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Calculator.cs(20,2): error CS1513: } expected
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Calculator.cs(20,2): error CS1513: } expected
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  10:42 AM            414 Calculator.cs
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../Assignment2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Calculator.cs(20,2): error CS1513: } expected
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  10:42 AM            414 Calculator.cs
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  10:42 AM            414 Calculator.cs
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+Calculator.cs(20,2): error CS1513: } expected
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  10:42 AM            414 Calculator.cs
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  12:31 PM            415 Calculator.cs
+-a----         16-Jul-24  12:31 PM           3584 Calculator.dll
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  10:33 AM           3584 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /reference:Calculator.dll .\HelloCSharp.cs
+Microsoft (R) Visual C# Compiler version 4.8.9232.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version.
+For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> dir
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         16-Jul-24  12:31 PM            415 Calculator.cs
+-a----         16-Jul-24  12:31 PM           3584 Calculator.dll
+-a----         16-Jul-24  11:14 AM            288 HelloCSharp.cs
+-a----         16-Jul-24  12:32 PM           4096 HelloCSharp.exe
+-a----         16-Jul-24  10:33 AM           3584 suresh.exe
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> .\HelloCSharp.exe
+Hello Suresh Welcome to CSharp
+Doing addition
+Doing Subtraction
+Doing multiplication
+Doing division
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../Assignment2.txt
+        modified:   Calculator.cs
+        modified:   HelloCSharp.exe
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> git add .
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> git status
+On branch pawan-branch
+Your branch is up to date with 'origin/pawan-branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Calculator.cs
+        modified:   HelloCSharp.exe
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../Assignment2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> git commit -m "after testing"
+[pawan-branch 9ec44cf] after testing
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724\usingcommandline> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240716125051
+**********************
