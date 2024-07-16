@@ -15,6 +15,6 @@ public class Calculator{
 	public int division(){
 	System.Console.WriteLine("Doing division");
 	return 0;
-	
+	}
 }
 }
