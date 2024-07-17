@@ -1,0 +1,378 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240716180720
+Username: NICEDEN\kgupta
+RunAs User: NICEDEN\kgupta
+Configuration Name: 
+Machine: NEW8084-G8 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 42712
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout main
+error: The following untracked working tree files would be overwritten by checkout:
+        Assignemt1.txt
+Please move or remove them before you switch branches.
+Aborting
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Main
+error: The following untracked working tree files would be overwritten by checkout:
+        Assignemt1.txt
+Please move or remove them before you switch branches.
+Aborting
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Main
+A       Assignemt0001.txt
+A       Assignemt001.tx
+Switched to branch 'Main'
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7/16/2024   6:08 PM                usingcommandline
+-a----         7/16/2024   6:08 PM           7265 .gitignore
+-a----         7/16/2024  12:09 PM          10975 Assignemt0001.txt
+-a----         7/16/2024  12:17 PM           6660 Assignemt0002.txt
+-a----         7/16/2024  11:37 AM           2705 Assignemt001.tx
+-a----         7/16/2024   6:08 PM            654 Assignemt01.txt
+-a----         7/16/2024   6:08 PM           9673 Assignemt1.txt
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024  11:09 AM             77 README.md
+-a----         7/16/2024   6:08 PM           3216 suresh.txt
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignemt0001.txt
+        new file:   Assignemt001.tx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignemt0001.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt0002.txt
+        Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Khushbu-branch
+A       Assignemt0001.txt
+A       Assignemt001.tx
+Switched to branch 'Khushbu-branch'
+Your branch is up to date with 'origin/Khushbu-branch'.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Khushbu-branch
+Your branch is up to date with 'origin/Khushbu-branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignemt0001.txt
+        new file:   Assignemt001.tx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignemt0001.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt0002.txt
+        Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Main
+Switched to branch 'Main'
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7/16/2024   6:10 PM                usingcommandline
+-a----         7/16/2024   6:10 PM           7265 .gitignore
+-a----         7/16/2024   6:10 PM            654 Assignemt01.txt
+-a----         7/16/2024   6:10 PM           9673 Assignemt1.txt
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024  11:09 AM             77 README.md
+-a----         7/16/2024   6:10 PM           3216 suresh.txt
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull
+remote: Enumerating objects: 83, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 44 (delta 23), reused 43 (delta 22), pack-reused 0
+Unpacking objects: 100% (44/44), 13.45 KiB | 39.00 KiB/s, done.
+From https://github.com/sureshnanjan/playwright-specflow-nice0724
+ * [new branch]      KiranHirulkar-branch -> origin/KiranHirulkar-branch
+   70423e7..e8dabe9  Shrikant-branch      -> origin/Shrikant-branch
+   18c4d2d..7e7a7da  Sojwal-branch        -> origin/Sojwal-branch
+   d2300c8..2b95f36  VaibhavAuto-branch   -> origin/VaibhavAuto-branch
+   492be6c..30dc374  pawan-branch         -> origin/pawan-branch
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> Main
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Khushbu-branch
+Switched to branch 'Khushbu-branch'
+Your branch is up to date with 'origin/Khushbu-branch'.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024   6:11 PM           7258 .gitignore
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024   6:11 PM              0 KhushbuLog1.txt.txt
+-a----         7/16/2024  11:09 AM             77 README.md
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Khushbu-branch
+Your branch is up to date with 'origin/Khushbu-branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignemt0001.txt
+        new file:   Assignemt001.tx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Assignemt0001.txt
+        deleted:    Assignemt001.tx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git merge
+Already up to date.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024   6:11 PM           7258 .gitignore
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024   6:11 PM              0 KhushbuLog1.txt.txt
+-a----         7/16/2024  11:09 AM             77 README.md
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull
+Already up to date.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024   6:11 PM           7258 .gitignore
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024   6:11 PM              0 KhushbuLog1.txt.txt
+-a----         7/16/2024  11:09 AM             77 README.md
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Main
+Switched to branch 'Main'
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         7/16/2024   6:18 PM                usingcommandline
+-a----         7/16/2024   6:18 PM           7265 .gitignore
+-a----         7/16/2024   6:18 PM            654 Assignemt01.txt
+-a----         7/16/2024   6:18 PM           9673 Assignemt1.txt
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024  11:09 AM             77 README.md
+-a----         7/16/2024   6:18 PM           3216 suresh.txt
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> Main
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull Main
+fatal: 'Main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git pull Khushbu-branch
+fatal: 'Khushbu-branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignemt0001.txt
+        new file:   Assignemt001.tx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Assignemt0001.txt
+        deleted:    Assignemt001.tx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git checkout Khushbu-branch
+Switched to branch 'Khushbu-branch'
+Your branch is up to date with 'origin/Khushbu-branch'.
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024   6:21 PM           7258 .gitignore
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024   6:21 PM              0 KhushbuLog1.txt.txt
+-a----         7/16/2024  11:09 AM             77 README.md
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Khushbu-branch
+Your branch is up to date with 'origin/Khushbu-branch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assignemt0001.txt
+        new file:   Assignemt001.tx
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Assignemt0001.txt
+        deleted:    Assignemt001.tx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit -m "New changes on MY BRANCH"
+[Khushbu-branch 7ac94e5] New changes on MY BRANCH
+ 2 files changed, 249 insertions(+)
+ create mode 100644 Assignemt0001.txt
+ create mode 100644 Assignemt001.tx
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> ls
+
+
+    Directory: C:\AutomationTraining\QA-Training\playwright-specflow-nice0724
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/16/2024   6:21 PM           7258 .gitignore
+-a----         7/16/2024   6:07 PM            653 Assignemt2.txt
+-a----         7/16/2024  10:17 AM           2878 KGNewfile.log
+-a----         7/15/2024  11:43 AM            844 khushbu1.log
+-a----         7/16/2024   6:21 PM              0 KhushbuLog1.txt.txt
+-a----         7/16/2024  11:09 AM             77 README.md
+
+
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Khushbu-branch
+Your branch is ahead of 'origin/Khushbu-branch' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Assignemt0001.txt
+        deleted:    Assignemt001.tx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git rm Assignemt0001.txt Assignemt001.tx
+rm 'Assignemt0001.txt'
+rm 'Assignemt001.tx'
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit
+[Khushbu-branch ea814e1]  Changes to be committed:
+ 2 files changed, 249 deletions(-)
+ delete mode 100644 Assignemt0001.txt
+ delete mode 100644 Assignemt001.tx
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git commit
+On branch Khushbu-branch
+Your branch is ahead of 'origin/Khushbu-branch' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git status
+On branch Khushbu-branch
+Your branch is ahead of 'origin/Khushbu-branch' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignemt2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\AutomationTraining\QA-Training\playwright-specflow-nice0724> git merge
+Already up to date.
