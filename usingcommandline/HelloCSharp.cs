@@ -6,8 +6,11 @@ public static void Main(){
 	Calculator mycal = new Calculator();
 	mycal.add();
 	mycal.subtract();
+<<<<<<< HEAD
 	mycal.multipler();
 	mycal.Divisions();
+=======
+>>>>>>> f9c5239da9e6fb8d574281a4c6ac43ddc9f65431
 }
 }
 }

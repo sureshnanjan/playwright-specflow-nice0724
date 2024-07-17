@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MSBuildSample</AssemblyName>
+    <OutputPath>Bin\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Calculator.cs"/>
+  </ItemGroup>
+  <Target Name="Build">
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
+    <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />
+  </Target>
+</Project>
