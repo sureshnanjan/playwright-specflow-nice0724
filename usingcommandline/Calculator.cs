@@ -9,7 +9,11 @@ public class Calculator{
 	return 0;
 	}
         public int Multiple(){
-	System.Console.WriteLine("Doing Subtraction");
+	System.Console.WriteLine("Doing Multiple");
+	return 0;
+	}
+	public int Div(){
+	System.Console.WriteLine("Doing Div");
 	return 0;
 	}
 
