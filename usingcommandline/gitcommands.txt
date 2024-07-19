@@ -1,0 +1,42 @@
+Playright Training
+
+Git hub - version control system
+
+C:\Users\sdalal\OneDrive - Nice Systems Ltd\Desktop\PlayrightWithCSharp
+
+New-Item -Path "C:\Users\sdalal\OneDrive - Nice Systems Ltd\Desktop\PlayrightWithCSharp" -Name ‘QA-Training’ -ItemType Directory 
+
+.\git-installer.exe /VERYSILENT /NORESTART 
+
+.\git-installer.exe /VERYSILENT /NORESTART 
+
+
+git clone https://github.com/sureshnanjan/playwright-specflow-nice0724.git
+
+git checkout -b Shrikant-branch  
+
+Get-ChildItem -Name *.log
+
+Move-Item ..\Shrikant.log . 
+
+git commit -m “Adding first file to branch”
+
+Flow
+
+Target Library - C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library Calculator.cs
+
+ref file - C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /reference:Calculator.dll HelloCSharp.cs
+
+for creating dll:
+- C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library .\Calculator.cs
+ 
+for creating exe:
+- C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /reference:Calculator.dll .\HelloCSharp.cs
+ 
+for creating exe with custom name:
+- C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:pawan.exe /reference:Calculator.dll .\HelloCSharp.cs
+
+git checkout main
+git pull
+git checkout <your branch>
+git merge main
