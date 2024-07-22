@@ -13,7 +13,7 @@ namespace BinarySearcherTest
             int elementtosearch = 2;
             int expectedResult = 1;
             /// Act
-            int actual = aut.doSearch(input,elementtosearch);
+            int actual = aut.doSearch(input, elementtosearch);
             /// Assert
             Assert.AreEqual(expectedResult, actual);
         }
@@ -74,6 +74,7 @@ namespace BinarySearcherTest
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void ExpectExceptionArgumentNullException() {
             /// Arrange - AUT
             var aut = new BinarySearcherAUT();
@@ -81,17 +82,38 @@ namespace BinarySearcherTest
             int elementtosearch = 4;
             int expectedResult = ~3; //; Less than 0
             /// Act
-            try
-            {
-                int actual = aut.doSearch(input, elementtosearch);
-            }
-            catch (ArgumentNullException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Assert.IsTrue(true);
-            }
+            int actual = aut.doSearch(input, elementtosearch);
+                       
+            /// Assert
+            // Assert.AreEqual(expectedResult, actual);
+        }
 
-            
+        [TestMethod]
+        [ExpectedException(typeof(RankException))]
+        public void ExpectExceptionRankException()
+        {
+            /// Arrange - AUT
+            var aut = new BinarySearcherAUT();
+            int[,] input = { { 1, 4, 2 }, { 3, 6, 8 } };
+            int elementtosearch = 4;
+            /// Act
+            int actual = aut.doSearch(input, elementtosearch);
+
+            /// Assert
+            // Assert.AreEqual(expectedResult, actual);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void ExpectArgumentExceptionException()
+        {
+            /// Arrange - AUT
+            var aut = new BinarySearcherAUT();
+            int[] input = { 1,2,3,4,5 };
+            string elementtosearch = "one";
+            /// Act
+            int actual = aut.doSearch(input, elementtosearch);
+
             /// Assert
             // Assert.AreEqual(expectedResult, actual);
         }

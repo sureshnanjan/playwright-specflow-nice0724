@@ -5,10 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>doc\document.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Calculations\Calculations.csproj" />
+    <ProjectReference Include="..\UtilitiesAndExtensions\UtilitiesAndExtensions.csproj" />
   </ItemGroup>
 
 </Project>
