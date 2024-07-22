@@ -2,8 +2,8 @@
 {
     public class BinarySearcherAUT
     {
-        public int doSearch(int[] input , int elementtoSearch) {
-            return 0;
+        public int doSearch(Array input , object elementtoSearch) {
+            return Array.BinarySearch(input, elementtoSearch);
         }
 
     }
