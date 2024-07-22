@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240722103804
+Username: NICEDEN\khirulkar
+RunAs User: NICEDEN\khirulkar
+Configuration Name: 
+Machine: NEW2300-G8 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 26032
+PSVersion: 5.1.22621.3880
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3880
+BuildVersion: 10.0.22621.3880
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is 7JulLog_KH.log
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git checkout KiranHirulkar-branch
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git fetch origin
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git merge origin/suresh-trainer
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git commit -m "Merged origin/suresh-trainer into origin/KiranHirulkar-branch"
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> git push origin KiranHirulkar-branch
+
+PS C:\Users\Khirulkar\OneDrive - Nice Systems Ltd\Documents\Training_Playwrite_C#\QA-Training\playwright-specflow-nice0724> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240722104148
+**********************
