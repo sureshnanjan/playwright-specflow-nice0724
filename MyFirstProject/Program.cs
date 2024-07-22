@@ -7,18 +7,29 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            //LambdaDemo();
+            GenericCalculator<int> intcalc = new GenericCalculator<int>();
+            GenericCalculator<float> flcalc = new GenericCalculator<float>();
+            intcalc.add();
+            flcalc.add();
+            List<int> list = new List<int>();
+            Calculator cal = new Calculator();
+            Console.WriteLine(cal.genericAdd<int>(1, 2));
+            Console.WriteLine(cal.genericAdd<float>(12.0f, 12.1f));
+        }
+
+        private static void LambdaDemo()
+        {
             int[] numbers = { 1, 2, 3, 4, 5, 6 };
+            double[] numbers2 = { 1.2, 1.3, 1.3 };
             //DelegatsDemo();
             Console.WriteLine(numbers.Aggregate(Multiplier));
             Console.WriteLine(numbers.Aggregate(Adder));
-            Console.WriteLine(numbers.Aggregate((a,b) => 2 * a + 2 * b));
+            Console.WriteLine(numbers.Aggregate((a, b) => 2 * a + 2 * b));
             Console.WriteLine(numbers.All(a => a % 2 == 0));
             Console.WriteLine(numbers.All(a => a < 10));
-
-
-
+            numbers2.Aggregate((a,b) => a+b);
         }
-
 
         private static int Multiplier(int a, int b) {
             return a * b;
