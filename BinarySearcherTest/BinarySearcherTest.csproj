@@ -16,4 +16,11 @@
     <PackageReference Include="coverlet.collector" Version="3.2.0" />
   </ItemGroup>
 
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ProjectReference Include="..\BinarySearcher\BinarySearcher.csproj" />
+  </ItemGroup>
+
+>>>>>>> a17f3d5e03e20783a452db5ab8d4c50c2c799d80
 </Project>
