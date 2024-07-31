@@ -1,5 +1,5 @@
 ﻿using Calculations;
-using System.Linq;
+using UtilitiesAndExtensions;
 namespace MyFirstProject
 {
     delegate void myDelegate(int a, int b);
@@ -8,6 +8,16 @@ namespace MyFirstProject
         static void Main(string[] args)
         {
             //LambdaDemo();
+            //GenericsDEmo();
+            string name = "suresh this is a demo";
+            Console.WriteLine(name.WordCount());
+            name.SayHello(5);
+           
+                     
+        }
+
+        private static void GenericsDEmo()
+        {
             GenericCalculator<int> intcalc = new GenericCalculator<int>();
             GenericCalculator<float> flcalc = new GenericCalculator<float>();
             intcalc.add();
