@@ -18,3 +18,19 @@ public class Calculator{
 	}
 }
 }
+
+body
+document.querySelector("body")
+/html/body
+R03469849 - Individual CustId
+C00142962 - Corporate ID
+
+8940299304
+
+Indian Institute of Hardware Technology Limited, # 54, 4th Floor, Sri
+Lakshmi Complex, St. Marks Road, Bangalore- 560001, Karnataka,
+India. PH: 080-61604545
+
+39 Hours X 1200 = 
+700 * 6 = 
+
