@@ -7,11 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstProject", "MyFirstPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculations", "Calculations\Calculations.csproj", "{74CD6209-2E72-4A93-8064-6552EF6DDCF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearcherTest", "BinarySearcherTest\BinarySearcherTest.csproj", "{B6E25F48-C480-4E55-AC9E-3B8C03F82642}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearcherTest", "BinarySearcherTest\BinarySearcherTest.csproj", "{B6E25F48-C480-4E55-AC9E-3B8C03F82642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearcher", "BinarySearcher\BinarySearcher.csproj", "{1694C205-3A54-481C-BCBE-1D4390C4056F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearcher", "BinarySearcher\BinarySearcher.csproj", "{1694C205-3A54-481C-BCBE-1D4390C4056F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitiesAndExtensions", "UtilitiesAndExtensions\UtilitiesAndExtensions.csproj", "{7CD404A7-D59F-4157-AA36-64061A29CA56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesAndExtensions", "UtilitiesAndExtensions\UtilitiesAndExtensions.csproj", "{7CD404A7-D59F-4157-AA36-64061A29CA56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcceptanceTestsBinarySearcher", "AcceptanceTestsBinarySearcher\AcceptanceTestsBinarySearcher.csproj", "{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuappAcceptanceScenarios", "SpecFlowProject1\HerokuappAcceptanceScenarios.csproj", "{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppOperations", "HerokuAppOperations\HerokuAppOperations.csproj", "{C2115EA3-728D-4110-9370-27E1D4C253F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppPlaywrightAdapter", "HerokuAppPlaywrightAdapter\HerokuAppPlaywrightAdapter.csproj", "{C4463712-2F25-4993-81C0-550F2C319206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppSystemTest", "HerokuAppSystemTest\HerokuAppSystemTest.csproj", "{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{7CD404A7-D59F-4157-AA36-64061A29CA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CD404A7-D59F-4157-AA36-64061A29CA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CD404A7-D59F-4157-AA36-64061A29CA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2115EA3-728D-4110-9370-27E1D4C253F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2115EA3-728D-4110-9370-27E1D4C253F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2115EA3-728D-4110-9370-27E1D4C253F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2115EA3-728D-4110-9370-27E1D4C253F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4463712-2F25-4993-81C0-550F2C319206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4463712-2F25-4993-81C0-550F2C319206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4463712-2F25-4993-81C0-550F2C319206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4463712-2F25-4993-81C0-550F2C319206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
