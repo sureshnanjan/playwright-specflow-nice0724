@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HerokuAppOperations\HerokuAppOperations.csproj" />
+    <ProjectReference Include="..\UtilitiesAndExtensions\UtilitiesAndExtensions.csproj" />
   </ItemGroup>
 
 </Project>

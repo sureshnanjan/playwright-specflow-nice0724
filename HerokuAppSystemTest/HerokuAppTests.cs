@@ -1,4 +1,4 @@
-using HerokuAppOperations;
+using HerokuApp.Operations;
 using Microsoft.Playwright;
 using System.Runtime.CompilerServices;
 namespace HerokuAppSystemTest
