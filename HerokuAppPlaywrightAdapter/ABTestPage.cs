@@ -1,4 +1,5 @@
 ﻿using HerokuApp.Operations;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,9 @@ namespace HerokuApp.Implementation
     public class ABTestPage : HerokuApp, IABTestOperation
     {
         ILocator paragraphLocator;
-        public ABTestPage(IPage browser): base(browser) {
-            this.paragraphLocator = Page.GetByRole(AriaRole.Paragraph);
+        public ABTestPage(IPage browser) : base(browser)
+        {
+            paragraphLocator = Page.GetByRole(AriaRole.Paragraph);
         }
         public void DisableABTest()
         {

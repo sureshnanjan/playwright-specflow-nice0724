@@ -1,10 +1,11 @@
 ﻿using HerokuApp.Operations;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Utilities;
+
 
 namespace HerokuApp.Implementation
 {
@@ -15,6 +16,8 @@ namespace HerokuApp.Implementation
         private IPage? _page = null;
         ILocator headingLocator;
         ILocator subheadingLocator;
+        private IPage browser;
+
         public HerokuApp(IPage availablePage)
         {
             if (availablePage is null)
@@ -29,6 +32,9 @@ namespace HerokuApp.Implementation
             this.subheadingLocator = Page.GetByRole(AriaRole.Heading).Last;
 
         }
+
+        public HerokuApp(IPage browser) => this.browser = browser;
+
         private async Task initializeTool()
         {
             _tool = await Playwright.CreateAsync();
@@ -51,7 +57,7 @@ namespace HerokuApp.Implementation
             }
             
             _page = await _browser.NewPageAsync();
-            await _page.GotoAsync(Utilities.ApplicationSettings.getAppUrl());
+            object ap1 = await _page.GotoAsync(Utilities.ApplicationSettings.getAppUrl());
         }
 
         public Task CloseBrowser()
@@ -79,6 +85,7 @@ namespace HerokuApp.Implementation
         protected IBrowser? Browser { get { return this._browser;}}
 
         protected IPage? Page { get { return this._page; } }
-            
+
+        public object Utilities { get; private set; }
     }
 }
