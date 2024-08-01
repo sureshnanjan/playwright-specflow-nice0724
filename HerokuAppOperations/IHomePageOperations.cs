@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HerokuApp.Implementation.Operations
+namespace HerokuApp.Operations
 {
     public interface IHomePageOperations
     {

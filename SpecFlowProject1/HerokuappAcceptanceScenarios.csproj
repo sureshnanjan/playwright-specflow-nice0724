@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HerokuAppOperations\HerokuAppOperations.csproj" />
+    <ProjectReference Include="..\HerokuAppPlaywrightAdapter\HerokuAppPlaywrightAdapter.csproj" />
   </ItemGroup>
 
 </Project>
