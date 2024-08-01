@@ -40,3 +40,9 @@ Scenario: ABTest disabling works
 	And ABTesting is disabled
 	When the heading is accessed
 	Then is should be "NO ABTest"
+
+Scenario: Broken Images can be correctly detected
+	Given The Application is available
+	And the example "BrokenImages" is accessed
+	When the IMage1 details is accessed
+	Then it should point to images in the img folder

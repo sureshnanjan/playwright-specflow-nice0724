@@ -1,6 +1,5 @@
-using HerokuApp.Implementation.Operations;
 using HerokuApp.Operations;
-
+using HerokuApp.Implementation;
 namespace HerokuApp.Implementation.Features.StepDefinitions
 {
     [Binding]
