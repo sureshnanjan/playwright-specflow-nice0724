@@ -118,6 +118,21 @@ namespace BinarySearcherTest
             // Assert.AreEqual(expectedResult, actual);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(RankException))]
+        public void ExpectRankException()
+        {
+            /// Arrange - AUT
+            var aut = new BinarySearcherAUT();
+            int[] input = { 1, 2, 3, 4, 5 };
+            string elementtosearch = "one";
+            /// Act
+            int actual = aut.doSearch(input, elementtosearch);
+
+            /// Assert
+            // Assert.AreEqual(expectedResult, actual);
+        }
+
 
     }
 }
