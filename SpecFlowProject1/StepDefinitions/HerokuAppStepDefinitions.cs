@@ -22,7 +22,8 @@ namespace HerokuApp.Implementation.Features.StepDefinitions
         public void GivenTheApplicationIsAvailable()
         {
             Console.WriteLine("Heroku App Is Launched");
-            page = new HomePage(null);
+            //page = new HomePage(null); // Factory Method Pattern which will create the right tooo instance
+            page = ToolFactory.GetHomePage();
         }
 
         [When(@"the heading is accessed")]

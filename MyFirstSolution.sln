@@ -15,13 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesAndExtensions", "U
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcceptanceTestsBinarySearcher", "AcceptanceTestsBinarySearcher\AcceptanceTestsBinarySearcher.csproj", "{B0342F72-90CF-42B7-A75B-DDB9FF3E6B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuappAcceptanceScenarios", "SpecFlowProject1\HerokuappAcceptanceScenarios.csproj", "{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerokuappAcceptanceScenarios", "SpecFlowProject1\HerokuappAcceptanceScenarios.csproj", "{8FAD2C42-EBA8-44F3-B2F0-A1FDDC622955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppOperations", "HerokuAppOperations\HerokuAppOperations.csproj", "{C2115EA3-728D-4110-9370-27E1D4C253F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerokuAppOperations", "HerokuAppOperations\HerokuAppOperations.csproj", "{C2115EA3-728D-4110-9370-27E1D4C253F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppPlaywrightAdapter", "HerokuAppPlaywrightAdapter\HerokuAppPlaywrightAdapter.csproj", "{C4463712-2F25-4993-81C0-550F2C319206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerokuAppPlaywrightAdapter", "HerokuAppPlaywrightAdapter\HerokuAppPlaywrightAdapter.csproj", "{C4463712-2F25-4993-81C0-550F2C319206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppSystemTest", "HerokuAppSystemTest\HerokuAppSystemTest.csproj", "{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerokuAppSystemTest", "HerokuAppSystemTest\HerokuAppSystemTest.csproj", "{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPetStoreOperations", "JPetStoreOperations\JPetStoreOperations.csproj", "{E04E3B00-96F2-4446-87E8-3D16F86BE522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerokuAppWebdriverAdapter", "HerokuAppWebdriverAdapter\HerokuAppWebdriverAdapter.csproj", "{D34C8C53-EB05-48C5-AE57-578E2B48A777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABE8D7DA-D0FF-404D-B0A6-2D29BABCAA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04E3B00-96F2-4446-87E8-3D16F86BE522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04E3B00-96F2-4446-87E8-3D16F86BE522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04E3B00-96F2-4446-87E8-3D16F86BE522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04E3B00-96F2-4446-87E8-3D16F86BE522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34C8C53-EB05-48C5-AE57-578E2B48A777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34C8C53-EB05-48C5-AE57-578E2B48A777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34C8C53-EB05-48C5-AE57-578E2B48A777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34C8C53-EB05-48C5-AE57-578E2B48A777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ A short summary of the feature
 
 @homepage @guest @webapplication
 Scenario: Guest User Browsing products
-	Given PetStore is opened
+	Given PetStore is opened | visited
 	When a guest user visits 
 	Then shopping cart is empty
 
